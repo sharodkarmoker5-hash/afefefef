@@ -1,0 +1,31 @@
+{
+  "profile": {
+    "name": "[YOUR NAME]",
+    "role": "Student",
+    "bio": "[YOUR BIO]",
+    "location": "[YOUR LOCATION]",
+    "email": "[YOUR EMAIL]"
+  },
+  "social": {
+    "github": "",
+    "linkedin": "",
+    "facebook": "",
+    "instagram": "",
+    "youtube": "",
+    "discord": "",
+    "other": ""
+  },
+  "stats": {
+    "projects": null,
+    "certificates": null,
+    "technologies": null,
+    "achievements": null
+  },
+  "skills": [],
+  "projects": [],
+  "services": [],
+  "experience": [],
+  "education": [],
+  "certificates": [],
+  "achievements": []
+}

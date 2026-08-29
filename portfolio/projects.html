@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>[YOUR NAME] | Projects</title><meta name="description" content="Projects by [YOUR NAME].">
+<meta property="og:title" content="[YOUR NAME] | Projects"><meta property="og:type" content="website">
+<link rel="icon" href="assets/icons/favicon.svg"><link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="css/responsive.css"><link rel="stylesheet" href="css/animations.css">
+</head>
+<body><header class="site-header"><nav class="navbar container"><a class="logo" href="index.html">[YOUR NAME]</a><button class="menu-toggle" aria-label="Open menu">☰</button><div class="nav-links"><a href="index.html">Home</a><a class="active" href="projects.html">Projects</a><a href="contact.html">Contact</a></div><div class="nav-actions"><button id="themeToggle" class="icon-btn">◐</button><a class="btn btn-small" href="contact.html">Contact</a></div></nav></header>
+<main><section class="page-hero container"><p class="eyebrow">PORTFOLIO</p><h1>My Projects</h1><p>Selected work and learning projects. Replace placeholders with your real projects.</p></section>
+<section class="section container"><div class="filters" role="tablist"><button class="filter active" data-filter="All">All</button><button class="filter" data-filter="Web">Web</button><button class="filter" data-filter="Python">Python</button><button class="filter" data-filter="AI">AI</button><button class="filter" data-filter="Other">Other</button></div><div id="projectGrid" class="project-grid"></div></section></main>
+<footer class="footer"><div class="container"><span>© <span id="year"></span> [YOUR NAME]</span></div></footer>
+<div id="projectModal" class="modal" aria-hidden="true"><div class="modal-panel"><button class="modal-close" aria-label="Close">×</button><img id="modalImage" src="" alt=""><div class="modal-content"><p class="eyebrow" id="modalCategory"></p><h2 id="modalTitle"></h2><p id="modalDescription"></p><p><strong>Technologies:</strong> <span id="modalTech"></span></p><p><strong>Features:</strong> <span id="modalFeatures"></span></p><div class="hero-actions"><a id="modalGithub" class="btn" href="#" target="_blank" rel="noopener">GitHub</a><a id="modalDemo" class="btn btn-outline" href="#" target="_blank" rel="noopener">Live Demo</a></div></div></div></div>
+<script src="js/main.js" defer></script><script src="js/projects.js" defer></script></body></html>
